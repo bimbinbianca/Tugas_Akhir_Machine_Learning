@@ -21,3 +21,14 @@ The model identifies customer segments based on:
 - ​Transaction frequency and churn probability.
 - ​Actionable insights for personalized banking product recommendations.
 
+# ​Supervised Learning: Customer Churn Prediction
+## Methodology
+​The goal is to identify customers at risk of churn based on their demographic profile and financial behavioral patterns within the bank's database.
+- ​Data Analysis: Instead of time-series data, the model analyzes key behavioral features such as account balance, product ownership, credit score, and activity status to determine the probability of a customer leaving.
+- Feature Engineering: Conducted feature selection to identify which customer attributes are the strongest indicators of churn.
+- Algorithms: Implemented and compared KNN, Random Forest, and SVM to build a robust classification system.
+
+## ​Evaluation & Insights
+- ​Metrics: Focused on Recall and F1-Score to ensure the model effectively captures as many potential churners as possible from the profile-based data.
+- ​Outcome: Successfully created a classification model that segments customers into "At-Risk" and "Loyal" categories with high precision.
+
